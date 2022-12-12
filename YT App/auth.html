@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    form{
+        width: 10%;
+    }
+    input{
+        margin-top: 10%;
+    }
+    button{
+        margin-top: 2%;
+    }
+</style>
+<body>
+    <div id="register">
+        <h1>Register</h1>
+        <form action="">
+
+        
+        <input type="text" id="name" placeholder="name">
+        <input type="email" id="email" placeholder="email">
+        <input type="text" id="username" placeholder="username">
+        <input type="password" id="password" placeholder="password">
+        <input type="number" id="mobile" placeholder="Enter your Number">
+        <input type="text" id="description" placeholder="Enter Description">
+    </form>
+    <button onclick="Register()">Register</button>
+    </div>
+    <div id="login-form">
+        <h1>Login</h1>
+        <form action="">
+            <input type="text" id="login-username" placeholder="username">
+            <input type="password" id="login-password" placeholder="password">
+        </form>
+        <button onclick="Login()">Login</button>
+    </div>
+    
+</body>
+</html>
+<script src="auth.js"></script>
